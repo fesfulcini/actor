@@ -1,0 +1,29 @@
+footer {
+    .wrapper_footer {
+        background: black;
+        height: 200PX;
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            li {
+                list-style: none;
+                margin: 20px;
+                text-align: center;
+                a {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 12px;
+                    text-decoration: none;
+                    letter-spacing: 1px;
+                    &:hover {
+                        color:silver;
+                    }
+                }
+                
+            }
+        }
+    }
+}
